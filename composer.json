@@ -1,0 +1,26 @@
+{
+    "name": "upmedio/module-productexport",
+    "description": "",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "email": "info@mage2gen.com",
+            "name": "Mage2Gen"
+        },
+        {
+            "email": "vasyl@upmedio.com",
+            "name": "Vasyl Sokolyk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "UpMedio\\ProductExport\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
